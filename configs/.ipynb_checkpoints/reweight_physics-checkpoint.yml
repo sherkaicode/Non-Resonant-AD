@@ -1,0 +1,4 @@
+layers: [100, 100, 100]
+learning_rate: 0.001
+batch_size: 512
+n_epochs: 50
