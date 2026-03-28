@@ -1,0 +1,55 @@
+{
+  "Multijet": {
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ0WithSW": {"xsec_pb": 78050000000.0, "n_events": 50035000, "sum_w": 50035000.0},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ1WithSW": {"xsec_pb": 78050000000.0, "n_events": 50089400, "sum_w": 50089400.0},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ2WithSW": {"xsec_pb": 2433000000.0, "n_events": 50019000, "sum_w": 18501.16492},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ3WithSW": {"xsec_pb": 26450000.0, "n_events": 50083000, "sum_w": 364.7516766},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ4WithSW": {"xsec_pb": 254610.0, "n_events": 50085000, "sum_w": 11.16837637},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ5WithSW": {"xsec_pb": 4553.2, "n_events": 48000000, "sum_w": 0.0801774804},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ6WithSW": {"xsec_pb": 257.54, "n_events": 180000, "sum_w": 0.000500232638},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ7WithSW": {"xsec_pb": 16.215, "n_events": 900000, "sum_w": 6.91e-05},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ8WithSW": {"xsec_pb": 0.62506, "n_events": 150000, "sum_w": 3.33e-05},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ9WithSW": {"xsec_pb": 0.019639, "n_events": 60000, "sum_w": 5.17e-06},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ10WithSW": {"xsec_pb": 0.0011962, "n_events": 180000, "sum_w": 7.22e-06},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ11WithSW": {"xsec_pb": 4.23e-05, "n_events": 80000, "sum_w": 1.70e-06},
+    "Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ12WithSW": {"xsec_pb": 1.04e-06, "n_events": 100000, "sum_w": 1.23e-06}
+  },
+  "Wjets": {
+    "Sh_2211_Wenu_maxHTpTV2_BFilter": {"xsec_pb": 21742.0, "n_events": 14839000, "sum_w": 4.22e+14},
+    "Sh_2211_Wenu_maxHTpTV2_CFilterBVeto": {"xsec_pb": 21742.0, "n_events": 133882000, "sum_w": 1.02e+16},
+    "Sh_2211_Wenu_maxHTpTV2_CVetoBVeto": {"xsec_pb": 21742.0, "n_events": 177913000, "sum_w": 2.90e+16},
+    "Sh_2211_Wmunu_maxHTpTV2_BFilter": {"xsec_pb": 21806.0, "n_events": 15514000, "sum_w": 436982952631438.0},
+    "Sh_2211_Wmunu_maxHTpTV2_CFilterBVeto": {"xsec_pb": 21806.0, "n_events": 124010000, "sum_w": 9.44394e+15},
+    "Sh_2211_Wmunu_maxHTpTV2_CVetoBVeto": {"xsec_pb": 21806.0, "n_events": 158012000, "sum_w": 2.57e+16},
+    "Sh_2211_Wtaunu_L_maxHTpTV2_BFilter": {"xsec_pb": 7680.0, "n_events": 5117000, "sum_w": 141445079722192.0},
+    "Sh_2211_Wtaunu_L_maxHTpTV2_CFilterBVeto": {"xsec_pb": 7680.0, "n_events": 24321000, "sum_w": 1.82725e+15},
+    "Sh_2211_Wtaunu_L_maxHTpTV2_CVetoBVeto": {"xsec_pb": 7680.0, "n_events": 57130000, "sum_w": 9.29675e+15},
+    "Sh_2211_Wtaunu_H_maxHTpTV2_BFilter": {"xsec_pb": 14126.0, "n_events": 7066000, "sum_w": 197643939627956.0},
+    "Sh_2211_Wtaunu_H_maxHTpTV2_CFilterBVeto": {"xsec_pb": 14126.0, "n_events": 7656000, "sum_w": 574905906029845.0},
+    "Sh_2211_Wtaunu_H_maxHTpTV2_CVetoBVeto": {"xsec_pb": 14126.0, "n_events": 57158000, "sum_w": 9.30275e+15}
+  },
+  "Zjets": {
+    "Sh_2211_Zmumu_maxHTpTV2_BFilter": {"xsec_pb": 2221.34, "n_events": 9800, "sum_w": 1274169020.3523},
+    "Sh_2211_Zmumu_maxHTpTV2_CFilterBVeto": {"xsec_pb": 2221.3, "n_events": 20960000, "sum_w": 146058373467803.0},
+    "Sh_2211_Zmumu_maxHTpTV2_CVetoBVeto": {"xsec_pb": 2221.3, "n_events": 85443000, "sum_w": 1.19632e+15},
+    "Sh_2211_Znunu_pTV2_BFilter": {"xsec_pb": 447.13, "n_events": 2841000, "sum_w": 164736096629.08},
+    "Sh_2211_Znunu_pTV2_CFilterBVeto": {"xsec_pb": 447.13, "n_events": 6688000, "sum_w": 401845926104.79},
+    "Sh_2211_Znunu_pTV2_CVetoBVeto": {"xsec_pb": 447.13, "n_events": 23108200, "sum_w": 14160262573300.7}
+  },
+  "ttbar": {
+    "PhPy8EG_A14_ttbar_hdamp258p75_nonallhad": {"xsec_pb": 729.77, "n_events": 32890000, "sum_w": 240149844.446},
+    "PhPy8EG_A14_ttbar_hdamp258p75_allhad": {"xsec_pb": 729.77, "n_events": 17371000, "sum_w": 126844517.56}
+  },
+  "Single_top": {
+    "PowhegPythia8EvtGen_A14_singletop_schan_lept_top": {"xsec_pb": 2.027, "n_events": 180000, "sum_w": 365019.0807},
+    "PowhegPythia8EvtGen_A14_singletop_schan_lept_antitop": {"xsec_pb": 1.267, "n_events": 4120000, "sum_w": 152312.8886},
+    "PhPy8EG_A14_tchan_BW50_lept_top": {"xsec_pb": 36.99, "n_events": 6336000, "sum_w": 124412662.1},
+    "PhPy8EG_A14_tchan_BW50_lept_antitop": {"xsec_pb": 22.173, "n_events": 2000000, "sum_w": 44399910.89}
+  },
+  "Diboson": {
+    "Sh_2211_WlvWqq": {"xsec_pb": 109.28, "n_events": 3531000, "sum_w": 9832019225.02},
+    "Sh_2211_WlvZqq": {"xsec_pb": 8.582, "n_events": 2665000, "sum_w": 182874248.11},
+    "Sh_2211_WqqZvv": {"xsec_pb": 6.543, "n_events": 7529000, "sum_w": 111007448.44},
+    "Sh_2211_ZqqZvv": {"xsec_pb": 8.357, "n_events": 6300000, "sum_w": 1.02794e+15}
+  }
+}
