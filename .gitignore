@@ -13,7 +13,6 @@ context_weight_train.out
 data_split.ipynb
 generate_train.err
 generate_train.out
-mc_metadata.json
 regions.py
 reweight_train.err
 reweight_train.out
@@ -28,3 +27,8 @@ train_generate.sh
 train_models.ipynb
 train_reweight.py
 train_reweight.sh
+
+Models_Final/
+NRAD_prep_ver2.ipynb
+Regions_MC/
+Regions_data_ver2/
