@@ -29,7 +29,7 @@ reweight_train.out
 # train_reweight.sh
 
 Models_Final/
-NRAD_prep_ver2.ipynb
+# NRAD_prep_ver2.ipynb
 Regions_MC/
 Regions_data_ver2/
 Regions_MC_ver2/
