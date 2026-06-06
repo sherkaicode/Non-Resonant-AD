@@ -10,23 +10,23 @@ Scaled_Regions/
 Scaled_Regions_with_weights/
 context_weight_train.err
 context_weight_train.out
-data_split.ipynb
+# data_split.ipynb
 generate_train.err
 generate_train.out
-regions.py
+# regions.py
 reweight_train.err
 reweight_train.out
-split_data.err
-split_data.out
-split_data.sh
-test.py
-train_contextW.py
-train_contextW.sh
-train_generate.py
-train_generate.sh
-train_models.ipynb
-train_reweight.py
-train_reweight.sh
+# split_data.err
+# split_data.out
+# split_data.sh
+# test.py
+# train_contextW.py
+# train_contextW.sh
+# train_generate.py
+# train_generate.sh
+# train_models.ipynb
+# train_reweight.py
+# train_reweight.sh
 
 Models_Final/
 NRAD_prep_ver2.ipynb
@@ -41,4 +41,4 @@ Final_Dataset_ML/
 
 Regions_data_ver4/
 Regions_MC_ver3/
-AD_Events
+AD_Events/
