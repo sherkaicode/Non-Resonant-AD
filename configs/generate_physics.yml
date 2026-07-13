@@ -2,4 +2,4 @@ n_layers: 4
 n_hidden_features: 128
 learning_rate: 0.001
 batch_size: 256
-n_epochs: 20
+n_epochs: 50

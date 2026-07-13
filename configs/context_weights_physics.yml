@@ -1,4 +1,11 @@
-layers: [100, 100, 100]
+# Default
+# layers: [100, 100, 100]
+# learning_rate: 0.001
+# batch_size: 512
+
+# Version 1
+layers: [64, 64]
 learning_rate: 0.001
-batch_size: 512
+batch_size: 128
 n_epochs: 50
+
