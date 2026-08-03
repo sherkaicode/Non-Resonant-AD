@@ -80,15 +80,36 @@ The analysis is organized into numbered steps from raw ROOT data/MC streaming th
 - `4_NRAD_CWOLA_CR.ipynb` - CWoLa control region analysis notebook.
 - `5_NRAD_Anomaly.ipynb` - Final anomaly detection notebook.
 
-Supporting directories:
-
 - `configs/` - YAML configuration files for training and model hyperparameters.
 - `Regions_data`, `Regions_MC` - Dataset with prepared Event Selections
 - `Final_Dataset_ATLAS/`, `Final_Dataset_ML/` - Prepared datasets for ATLAS and ML workflows.
 - `Eval_CWoLa_*` - Evaluation and model outputs and plots for CWoLa studies.
-- `Models_Extrapolation_ATLAS/`, `Models_Extrapolation_ML/` - CWoLa trained model outputs.
+- `Models_Extrapolation_ATLAS/`, `Models_Extrapolation_ML/` - Trained CWoLa ensemble models outputs.
 - `model_scripts/` - Model definitions and training utilities.
 - `ATLAS_*.json` - ATLAS metadata files used for dataset streaming.
+
+## Ongoing Development & v2 Updates
+
+This repository now includes a second development track for the step 3–5 pipeline with focused ver2 improvements:
+
+- `3_NRAD_TRAIN_Generate_ver2.ipynb`
+  - Moves from a single-generator training workflow to an ensemble-based strategy (`N_ENSEMBLES = 10`).
+  - Trains a `SimpleMAF` normalizing flow plus a context-weight classifier in tandem.
+
+- `3_NRAD_TRAIN_Reweight_ver2.ipynb`
+  - Uses dropout and weight decay
+  - Adds ensemble reweighting across multiple classifiers to improve MC/data agreement.
+  - Produces ensemble weight columns and aggregates mean/std for robust reweight predictions.
+
+- `4_NRAD_CWOLA_SR_ver2.ipynb` and `4_NRAD_CWOLA_CR_ver2.ipynb`
+  - Provide enhanced CWoLa evaluation with reweighted, generated, and data comparisons.
+  - Save evaluation, scored dataset, and closure plot outputs under ver2 evaluation directories.
+  - Did a k-fold scoring for the SR data to fully use the events
+
+- `5_NRAD_Anomaly_ver2.ipynb`
+  - Incorporates signal injection, SR scoring, and updated anomaly score evaluation.
+
+These ver2 files are intended to track ongoing improvements in model robustness, dataset splitting, ensemble stability, and anomaly search validation.
 
 ## Prerequisites & Dependencies
 
@@ -154,4 +175,4 @@ The pipeline is intended to be executed in order from step 0 through step 5.
 
 ## Contact
 
-For questions about the NRAD OpenData pipeline or to adapt it for a different ATLAS dataset, review the notebook code comments and configuration files in `configs/`.
+For questions about the NRAD OpenData pipeline you may reach me out via email ([francis.lance.jumawan@cern.ch](mailto:francis.lance.jumawan@cern.ch))
