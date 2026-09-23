@@ -1,35 +1,4 @@
-CWoLa_CR/
-CWoLa_SR/
-Models/
-Models_ver2/
-Regions/
-Regions_data/
-Regions_ver2/
-Scaled_RegDiff/
-Scaled_Regions/
-Scaled_Regions_with_weights/
-context_weight_train.err
-context_weight_train.out
-# data_split.ipynb
-generate_train.err
-generate_train.out
-# regions.py
-reweight_train.err
-reweight_train.out
-# split_data.err
-# split_data.out
-# split_data.sh
-# test.py
-# train_contextW.py
-# train_contextW.sh
-# train_generate.py
-# train_generate.sh
-# train_models.ipynb
-# train_reweight.py
-# train_reweight.sh
-
 Models_Final/
-# NRAD_prep_ver2.ipynb
 Regions_MC/
 Regions_data_ver2/
 Regions_MC_ver2/
@@ -45,6 +14,5 @@ AD_Events/
 
 
 STEALTH_SUSY/MC_Events*
-
-Models_Extrapolation_*_ver2/samples
-Eval_CWoLa_*
+Models_Extrapolation_ML_ver2/samples
+Eval_CWoLa_SR_ATLAS_ver2/scored_datasets/MC_SR_GEN_scored.parquet
